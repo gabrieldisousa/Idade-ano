@@ -1,0 +1,29 @@
+@media screen {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        margin: auto;
+        background-color: rgb(1, 1, 70);
+    }
+    header {
+        color: white;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    section {
+        background-color: white;
+        padding: 15px;
+        border-radius: 20px 0 20px 0;
+        width: 370px;
+        margin: auto;
+        border: solid 1px green;
+    }
+    footer {
+        color: white;
+        padding-top: 10px;
+        text-align: center;
+    }
+    }
