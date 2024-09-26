@@ -6,7 +6,7 @@
     }
     body {
         margin: auto;
-        background-color: rgb(1, 1, 70);
+        background-color: rgb(61, 0, 73);
     }
     header {
         color: white;
@@ -19,7 +19,7 @@
         border-radius: 20px 0 20px 0;
         width: 370px;
         margin: auto;
-        border: solid 1px green;
+        border: solid 2px rgb(245, 0, 253);
     }
     footer {
         color: white;
