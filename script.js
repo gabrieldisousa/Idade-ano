@@ -1,5 +1,6 @@
 function verificar(){
-     ano = new Date().getFullYear()
+    data = new Date() 
+    ano = data.getFullYear()
      fano = document.getElementById('txtano')
      res = document.getElementById('res')
     if (fano.value == 0 || Number(fano.value) > ano) {
@@ -12,30 +13,30 @@ function verificar(){
         img.setAttribute('id', 'foto')
        if (fsex[0].checked) {
         if (idade >= 0 && idade < 10) {
-            gênero = 'Menino'
+            gênero = 'menino'
             img.setAttribute('src', 'garoto.png')
         } else if (idade < 17) {
-            gênero = 'Garoto'
+            gênero = 'garoto'
             img.setAttribute('src', 'menino.png')
         } else if (idade < 50) {
-            gênero = 'Adulto'
+            gênero = 'adulto'
             img.setAttribute('src', 'homem.png')
         } else {
-            gênero = 'Idoso'
+            gênero = 'idoso'
             img.setAttribute('src', 'idoso.png')
         }
     } else if (fsex[1].checked) {
         if (idade >= 0 && idade < 10) {
-            gênero = 'Menina'
+            gênero = 'menina'
             img.setAttribute('src', 'garota.png')
         } else if (idade < 17) {
-            gênero = 'Garota'
+            gênero = 'garota'
             img.setAttribute('src', 'menina.png')
         } else if (idade < 50) {
-            gênero = 'Adulta'
+            gênero = 'adulta'
             img.setAttribute('src', 'mulher.png')
         } else {
-            gênero = 'Idosa'
+            gênero = 'idosa'
             img.setAttribute('src', 'idosa.png')
         }
     } 
